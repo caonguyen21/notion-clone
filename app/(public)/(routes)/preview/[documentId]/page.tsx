@@ -59,7 +59,7 @@ const DocumentIdPage = ({ params }: DocumentIdPageProps) => {
   return (
     <div className="pb-40">
       <Cover preview url={document.coverImage} />
-      <div className="mx-auto md:max-w-3xl lg:max-w-4xl">
+      <div className="mx-auto">
         <Toolbar preview initialData={document} />
         <Editor
           editable={false}
